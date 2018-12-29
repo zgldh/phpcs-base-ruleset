@@ -10,6 +10,6 @@
     <rule ref="Generic.Files.LineEndings" />
 
     <rule ref="Internal.NoCodeFound">
-        <exclude-pattern>*.blade.php</exclude-pattern>
+        <exclude-pattern>*\.blade\.php</exclude-pattern>
     </rule>
 </ruleset>
