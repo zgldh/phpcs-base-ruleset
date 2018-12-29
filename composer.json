@@ -1,0 +1,27 @@
+{
+    "name": "zgldh/phpcs-base-ruleset",
+    "description": "The PHP_CodeSniffer ruleset for my projects",
+    "type": "library",
+    "license": "MIT",
+    "keywords":
+    [
+        "php",
+        "codesniffer"
+    ],
+    "authors": [
+        {
+            "name": "zgldh",
+            "email": "zgldh@hotmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.4"
+    },
+    "autoload": {
+    },
+    "autoload-dev": {
+    }
+}
