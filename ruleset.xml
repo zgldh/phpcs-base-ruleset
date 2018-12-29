@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
-<ruleset name="Shinetech Zhengzhou Base PHP Standard" namespace="ShinetechZZ\PHP\Standard">
+<ruleset name="PHP_CodeSniffer Base PHP Standard Ruleset" namespace="zgldh\PHP\Standard">
 
-    <description>The Shinetech Zhengzhou Base PHP coding standard. Obey and be better.</description>
+    <description>Obey and be better.</description>
 
     <arg name="report" value="checkstyle"/>
     <arg name="report-file" value="phpcs_report.xml"/>
