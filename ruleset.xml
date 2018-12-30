@@ -38,8 +38,7 @@
     </rule>
     <rule ref="Squiz.WhiteSpace.FunctionSpacing">
         <properties>
-        <property name="spacing" value="0" />
-        <property name="spacingBeforeFirst" value="1" />
+        <property name="spacing" value="1" />
         </properties>
     </rule>
     <rule ref="Squiz.WhiteSpace.SuperfluousWhitespace"/>
