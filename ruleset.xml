@@ -37,7 +37,7 @@
         </properties>
     </rule>
     <rule ref="Squiz.WhiteSpace.FunctionSpacing">
-        <properties
+        <properties>
         <property name="spacingBeforeFirst" value="1" />
         </properties>
     </rule>
