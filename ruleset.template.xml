@@ -12,6 +12,6 @@
   <file>./App</file>
 
   <!-- If this package is installed in global, please uncomment the line below. -->
-  <!-- <rule ref="/root/.composer/vendor/zgldh/phpcs-base-ruleset/ruleset.xml"/> -->
+  <!-- <rule ref="/.composer/vendor/zgldh/phpcs-base-ruleset/ruleset.xml"/> -->
   <rule ref="./vendor/zgldh/phpcs-base-ruleset/ruleset.xml"/>
 </ruleset>
