@@ -7,7 +7,47 @@
     <arg name="report-file" value="../../../phpcs_report.xml"/>
     <arg name="encoding" value="utf-8"/>
 
-    <rule ref="Generic.Files.LineEndings" />
+    <rule ref="Generic.Files.LineEndings"/>
+    <rule ref="Generic.Files.LineLength">
+        <properties>
+        <property name="lineLimit" value="120" />
+        <property name="absoluteLineLimit" value="160" />
+        </properties>
+    </rule>
+    <rule ref="Generic.Functions.OpeningFunctionBraceKernighanRitchie">
+        <properties>
+        <property name="checkFunctions" value="true" />
+        <property name="checkClosures" value="false" />
+        </properties>
+    </rule>
+    <rule ref="Generic.Metrics.CyclomaticComplexity">
+        <properties>
+        <property name="complexity" value="10" />
+        <property name="absoluteComplexity" value="20" />
+        </properties>
+    </rule>
+    <rule ref="Generic.Metrics.NestingLevel">
+        <properties>
+        <property name="nestingLevel" value="5" />
+        <property name="absoluteNestingLevel" value="10" />
+        </properties>
+    </rule>
+    <rule ref="Generic.Strings.UnnecessaryStringConcat">
+        <properties>
+        <property name="allowMultiline" value="true" />
+        </properties>
+    </rule>
+    <rule ref="Squiz.PHP.CommentedOutCode">
+        <properties>
+        <property name="maxPercentage" value="35" />
+        </properties>
+    </rule>
+    <rule ref="Squiz.WhiteSpace.FunctionSpacing">
+        <properties>
+        <property name="spacing" value="1" />
+        </properties>
+    </rule>
+    <rule ref="Squiz.WhiteSpace.SuperfluousWhitespace"/>
 
     <rule ref="Internal.NoCodeFound">
         <exclude-pattern>*\.blade\.php</exclude-pattern>
