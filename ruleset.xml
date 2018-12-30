@@ -14,12 +14,6 @@
         <property name="absoluteLineLimit" value="160" />
         </properties>
     </rule>
-    <rule ref="Generic.Functions.OpeningFunctionBraceKernighanRitchie">
-        <properties>
-        <property name="checkFunctions" value="true" />
-        <property name="checkClosures" value="false" />
-        </properties>
-    </rule>
     <rule ref="Generic.Metrics.CyclomaticComplexity">
         <properties>
         <property name="complexity" value="10" />
