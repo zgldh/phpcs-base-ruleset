@@ -7,6 +7,8 @@
 
   <description>The Project PHP coding standard. Referring to zgldh/phpcs-base-ruleset</description>
 
+  <arg name="report-file" value="phpcs_report.xml"/>
+  
   <file>./App</file>
 
   <!-- If this package is installed in global, please uncomment the line below. -->
